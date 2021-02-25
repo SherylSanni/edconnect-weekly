@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Project Explorer </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <header>
+            <div class=" container" style="background-color: lightblue; box-sizing: content-box;">
+            <nav class="navbar">
+                  <div class="navbar-header">
+                    <a class="navbar-brand link-color: grey; href="index.html">Project Explorer</a>
+                  </div>
+                    <ul class="nav navbar-nav" list-style-type="none">
+                        <li class="nav-item">
+                            <form class="form-inline">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="inlineFormInputSearch" placeholder="Search Projects">
+                                    <button class="btn btn-outline-light" type="submit">Search</button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                    <a class="navbar-link" href="createproject.html">Submit</a>
+
+                    <ul class="nav justify-content-end">        
+                        <li>   
+                            <a class="navbar-link" href="register.html">Sign up</a>
+                            <a class="navbar-link" href="login.html">Login</a>    
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <br>
+
+        <main>
+            <section>
+                <h3 class="h3 mb-3 font-weight-strong" style="margin-top: 50px; text-align: left;">Project Gallery</h3>
+                <div class="container bg-light p-3">
+                    <div class="form-row p-2">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                    <input class="col-8" type="text" class="form-control form-contol-lg flex-nowrap" id="inlineFormInputSearch" placeholder="Search Project name, authors, abstract, tags">
+                            </div>
+                            <div class="form-group">
+                                <form-label>Search By:</form-label> <br/>
+                                <select class="form-control form-contol-lg" name="Searchtype">
+                                <option value="Name">Name</option>
+                                <option value="Abstract">Abstract</option>
+                                <option value="Authors">Authors</option>
+                                <option value="Tags">Tags</option>
+                                </select> <br/> <br/>
+                                <button class="btn btn-lg btn-primary" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <section>
+                <h3>All Projects (0 results)</h3>
+                <div class="container">
+                    <div class="form-row">
+                        <div class="col-3" class="card w-25">
+                            <div class="card-header">Project Title</div>
+                            <p1 class="card-subtitle">Author 1, Author 2</p1>
+                            <p class="card-text">The Human Rights and Humanitarian Effects of Boko Haram Insurgency in Nigeria</p>
+                            <p class="card-footer">#html #css #javascript</p>                           
+                        </div>
+                
+                
+                        <div class="col-3" class="card w-25">
+                            <div class="card-header">Project Title</div>
+                            <p1 class="card-subtitle">Author 1, Author 2</p1>
+                            <p class="card-text">The Human Rights and Humanitarian Effects of Boko Haram Insurgency in Nigeria</p>
+                            <p class="card-footer">#html #css #javascript</p>
+                        </div>                            
+                    </div>
+                </div>    
+                </section>
+                <br>
+                <br>
+        </main>
+
+        <footer>
+            <div class=" container d-flex justify-content-end" style="background-color: rgb(248, 245, 245);">
+                <p>Project Explorer © 2021. Edconnect</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Project Explorer </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <header>
+            <div class=" container" style="background-color: lightblue; box-sizing: content-box;">
+                <nav class="navbar">
+                      <div class="navbar-header">
+                        <a class="navbar-brand link-color: grey; href="index.html">Project Explorer</a>
+                      </div>
+                        <ul class="nav navbar-nav" list-style-type="none">
+                            <li class="nav-item">
+                                <form class="form-inline">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="inlineFormInputSearch" placeholder="Search Projects">
+                                        <button class="btn btn-outline-light" type="submit">Search</button>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                        <a class="navbar-link" href="createproject.html">Submit</a>
+    
+                        <ul class="nav justify-content-end">        
+                            <li>   
+                                <a class="navbar-link" href="register.html">Sign up</a>
+                                <a class="navbar-link" href="login.html">Login</a>    
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+        <main>
+            <section class="container">
+                <h1 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Project 1</h1>
+                <div class="row" style="background-color: #D3D3D3; padding-top: 15px;">
+                    <div class="col-3">
+                        <p>Created By<br>Sheryl Sanni</p>
+                    </div>
+                    <div class="col-3">
+                        <p>Date Created<br>2021-02-25</p>
+                    </div>
+                    <div class="col-3">
+                        <p>Lasted Updated <br> 2021-02-25</p>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary">Edit Project</button>
+                    </div>
+                </div>
+                 <br>
+                <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="h5 mb-3 font-weight-strong" style="margin-top: 50px;">Project Abstract</h5>
+                        <p>The rise of insecurity in Nigeria is something that has given and continue to give all Nigerians, home and abroad, a serious cause for concern. <br> These days, if you have a need to travel by road, you would need to undergo varying degrees of fasting and prayer.</p>
+                            <div class="form-group">
+                                <label for="text">Comments</label>
+                                <textarea class="form-control" type="text" name="abstract" placeholder="Leave a comment" rows="3"> </textarea>
+                            </div> <br> 
+                            <button type="submit" class="btn btn-primary">Submit</button> <br>
+                            <br>
+                            
+                            <div class="container-fluid">
+                                <p class="text-align-center">No comment added yet.</p>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-6">
+                        <h5 class="h5 mb-3 font-weight-strong" style="margin-top: 50px;">Project Details</h5>
+                            <div class="card">
+                                <div class="card-header">Author(s)</div>
+                                <p class="card-body">Sheryl Sanni</p>
+                                <p class="card-footer">#javascript</p>
+                            </div> <br>
+                            <div class="card">
+                                <div class="card-header">Project files</div>
+                                    <p class="card-body justify-content-center">No file uploaded yet</p>
+                            </div>
+                        </div>
+                    </div> <br>
+
+                </div>
+
+            </section>
+            <br>
+            <br>
+
+            <footer>
+                <div class=" container d-flex justify-content-end" style="background-color: rgb(248, 245, 245);">
+                    <p>Project Explorer © 2021. Edconnect</p>
+                </div>
+            </footer>
+        </main>
+    </body>

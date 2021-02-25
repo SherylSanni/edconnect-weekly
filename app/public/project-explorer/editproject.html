@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Project Explorer </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+   
+    </head>
+    <body>
+        <header>
+            <div class=" container" style="background-color: lightblue; box-sizing: content-box;">
+            <nav class="navbar">
+                  <div class="navbar-header">
+                    <a class="navbar-brand link-color: grey; href="index.html">Project Explorer</a>
+                  </div>
+                    <ul class="nav navbar-nav" list-style-type="none">
+                        <li class="nav-item">
+                            <form class="form-inline">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="inlineFormInputSearch" placeholder="Search Projects">
+                                    <button class="btn btn-outline-light" type="submit">Search</button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                    <a class="navbar-link" href="createproject.html">Submit</a>
+
+                    <ul class="nav justify-content-end">        
+                        <li>   
+                            <a class="navbar-link" href="register.html">Sign up</a>
+                            <a class="navbar-link" href="login.html">Login</a>    
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <br>
+
+        <main>
+            <section class="container">
+                <h1 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Project 1</h1>
+                <div class="row" style="background-color: #D3D3D3; padding-top: 15px;">
+                    <div class="col-3">
+                        <p>Created By<br>Sheryl Sanni</p>
+                    </div>
+                    <div class="col-3">
+                        <p>Date Created<br>2021-02-25</p>
+                    </div>
+                    <div class="col-3">
+                        <p>Lasted Updated <br> 2021-02-25</p>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary">View Project</button>
+                    </div>
+                </div>
+            </div> <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h4 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Edit Project</h4>
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <form-label for="text">Project name</form-label>
+                                <input type="text" class="form-control" placeholder="Project 1" id="projectname">
+                            </div> <br>
+                            <div class="form-group">
+                                <label for="text">Project Abstract</label>
+                                <textarea class="form-control" type="text" name="abstract" rows="5"> </textarea>
+                            </div>
+                            <div class="form-group">
+                                <form-label>Author(s)</form-label>
+                                <input type="text" class="form-control" placeholder="Sheryl Sanni" id="authors"/>
+                            </div>
+                            <div>
+                                <label>Tag(s)</label> <br/>
+                                <input type="text" class="form-control" placeholder="#javascript, #mongodb" id="tags"/>
+                            </div> <br>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </form>
+                    </div>
+
+                    <div class="col-6">
+                        <h4 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Manage Project Files</h4>
+                        <form>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control flex-nowrap" id="inlineFormInputSearch" placeholder="Click to open file browser">
+                                    <div class="input-group-">
+                                        <button class="btn btn-outline-dark" type="submit">Browse</button>
+                                    </div>
+                            </div> <br>
+
+                            <div class="container">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h6 class="card-title">Project Files</h6>
+                                    <p class="card-text text-align-center">No file uploaded yet</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            </section>
+            <br>
+            <br>
+
+            <footer>
+                <div class=" container d-flex justify-content-end" style="background-color: rgb(248, 245, 245);">
+                    <p>Project Explorer © 2021. Edconnect</p>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
