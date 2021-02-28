@@ -58,20 +58,20 @@
             
             <div>
                 <h3 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Update Profile</h3>
-                    <form action="/action_page.php">
+                    <form>
                         <div class="container justify-content-center;">
                             <div class="form-row p-2">
                                 <div class="col-md-5" class="form-group">
                                     <form-label for="name">First name</form-label>
-                                    <input type="text" class="form-control" id="firstname">
+                                    <input type="text" class="form-control" name="firstname">
                                 </div> &nbsp; &nbsp;
                                 <div class="col-md-5" class="form-group">
                                     <form-label for="name">Last name</form-label>
-                                    <input type="text" class="form-control" id="lastname">
+                                    <input type="text" class="form-control" name="lastname">
                                 </div> &nbsp; &nbsp;
                                 <div class="col-md-5" class="form-group">
                                     <form-label for="email">Email Address</form-label>
-                                    <input type="email" class="form-control" id="email">
+                                    <input type="email" class="form-control" name="email">
                                 </div> &nbsp; &nbsp;
                                 <div class="col-md-5" class="form-group">
                                     <form-label for="program">Program</form-label>
@@ -117,15 +117,15 @@
                         <div class="row p-2 justify-content-center">
                             <div class="form-group" class="col-4">
                                 <form-label for="pwd">Current Password</form-label>
-                                <input type="password" class="form-control" placeholder="Current Password" id="pwd">
+                                <input type="password" class="form-control" placeholder="Current Password" name="password">
                             </div> &nbsp; &nbsp;
                             <div class="form-group" class="col-4">
-                            <form-label for="pwd">New Password</form-label>
-                            <input type="password" class="form-control" placeholder="Your New Password" id="pwd">
+                            <form-label for="password">New Password</form-label>
+                            <input type="password" class="form-control" placeholder="Your New Password" name="password">
                         </div> &nbsp; &nbsp;
                         <div class="form-group" class="col-4">
-                            <form-label for="pwd">Confirm Password</form-label>
-                            <input type="password" class="form-control" placeholder="Confirm New Password" id="pwd">    
+                            <form-label for="password">Confirm Password</form-label>
+                            <input type="password" class="form-control" placeholder="Confirm New Password" name="password">    
                         </div> &nbsp; &nbsp;
                     </div>
                         <button class="btn btn-primary justify-content-center" type="submit">Change Password</button>

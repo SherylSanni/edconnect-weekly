@@ -39,7 +39,7 @@
         <br>
 
         <main>
-            <section class="container">
+            <div class="container">
                 <h1 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Project 1</h1>
                 <div class="row" style="background-color: #D3D3D3; padding-top: 15px;">
                     <div class="col-3">
@@ -63,7 +63,7 @@
                         <form action="/action_page.php">
                             <div class="form-group">
                                 <form-label for="text">Project name</form-label>
-                                <input type="text" class="form-control" placeholder="Project 1" id="projectname">
+                                <input type="text" class="form-control" placeholder="Project 1" name="projectname">
                             </div> <br>
                             <div class="form-group">
                                 <form-label for="text">Project Abstract</form-label>
@@ -71,11 +71,11 @@
                             </div>
                             <div class="form-group">
                                 <form-label>Author(s)</form-label>
-                                <input type="text" class="form-control" placeholder="Sheryl Sanni" id="authors"/>
+                                <input type="text" class="form-control" placeholder="Sheryl Sanni" name="authors"/>
                             </div>
                             <div>
                                 <form-label>Tag(s)</form-label> <br/>
-                                <input type="text" class="form-control" placeholder="#javascript, #mongodb" id="tags"/>
+                                <input type="text" class="form-control" placeholder="#javascript, #mongodb" name="tags"/>
                             </div> <br>
                             <button class="btn btn-primary" type="submit">Save</button>
                         </form>
@@ -86,7 +86,7 @@
                         <form>
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="text" class="form-control flex-nowrap" id="inlineFormInputSearch" placeholder="Click to open file browser">
+                                    <input type="text" class="form-control flex-nowrap" name="inlineFormInputSearch" placeholder="Click to open file browser">
                                     <div class="input-group-">
                                         <button class="btn btn-outline-dark" type="submit">Browse</button>
                                     </div>
